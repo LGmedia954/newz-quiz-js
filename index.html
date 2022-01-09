@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Newz Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- top section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-primary display-3 my-4">Newz Quiz</h2>
+    </div>
+  </div>
+
+  <!-- result section -->
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+      <p>You are <span class="text-primary display-4 p-3">0%</span> newzy!</p>
+    </div>
+  </div>
+
+  <!-- quiz section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="my-5 text-white">Mic is hot. Just a few questions...</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. How do you give a reporter directions?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A">
+            <label class="form-check-label">Show them a map.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">The story will find you.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. If a reporter has 3 apples, then gives one to the cameraperson and one to the truck operator, how many apples does the freelance reporter eat?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A">
+            <label class="form-check-label">Freelance reporters don’t eat.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">None. The cameraperson takes two.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. How do you know when you've met a TV reporter?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A">
+            <label class="form-check-label">You will recognize them.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">They have follow up questions to your background check.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. How can you tell a difficult reporter?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A">
+            <label class="form-check-label">No one wants to work with them.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">Their standup video is a miserable shade.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">5. You throw food in the air mid newsroom. What happens next?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="A">
+            <label class="form-check-label">A news anchor bills you for dry cleaning.</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="B">
+            <label class="form-check-label">News staff never let food hit the floor.</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="btn btn-light">
+        </div>
+      </form>
+
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
